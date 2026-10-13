@@ -39,16 +39,16 @@ The repository provides the computational implementations, generated figures, an
 
 ## 🗂️ Repository Structure
 
-- **`appendix_code/`** — Python implementations associated with the paper's appendices.
-  - `fig5_dirac_cone.py` — Schematic graphene Dirac cone.
-  - `band_structures.py` — Schematic electronic band structures.
-  - `benzene_tight_binding.py` — Benzene energy spectra, density of states, molecular orbitals, and graphene lattice.
-  - `zigzag_vs_armchair.py` — Graphene flake geometries and eigenvalue spectra.
-  - `size_gap_relationship.py` — Illustrative ribbon-width versus energy-gap relationship.
-- **`figures/`** — Generated PNG visualizations.
-- **`paper/`** — Accompanying research paper in PDF format.
-- **`LICENSE`** — MIT License.
-- **`README.md`** — Project documentation.
+- **`appendix_code/`** - Python implementations associated with the paper's appendices.
+  - `fig5_dirac_cone.py` - Schematic graphene Dirac cone.
+  - `band_structures.py` - Schematic electronic band structures.
+  - `benzene_tight_binding.py` - Benzene energy spectra, density of states, molecular orbitals, and graphene lattice.
+  - `zigzag_vs_armchair.py` - Graphene flake geometries and eigenvalue spectra.
+  - `size_gap_relationship.py` - Illustrative ribbon-width versus energy-gap relationship.
+- **`figures/`** - Generated PNG visualizations.
+- **`paper/`** - Accompanying research paper in PDF format.
+- **`LICENSE`** - MIT License.
+- **`README.md`** - Project documentation.
 
 ---
 
@@ -75,7 +75,7 @@ The *Appendix Figure* numbering follows the sequence of code examples, whereas t
 
 ## 🖼️ Key Visualizations
 
-### Fig. 1 — Dirac Cone in Graphene
+### Fig. 1 - Dirac Cone in Graphene
 
 A schematic three-dimensional representation of the Dirac cone near a graphene K-point.
 
@@ -83,7 +83,7 @@ The plot illustrates the approximately linear energy–momentum dispersion of th
 
 ![Graphene Dirac Cone](figures/fig5_dirac_cone.png)
 
-### Fig. 2 — Schematic Electronic Band Structures
+### Fig. 2 - Schematic Electronic Band Structures
 
 A qualitative comparison of four electronic band-structure categories:
 
@@ -96,7 +96,7 @@ The visualization illustrates the relationship between occupied and unoccupied e
 
 ![Electronic Band Structures](figures/band_structures.png)
 
-### Fig. 3 — Benzene Energy Levels: NN vs. NNN
+### Fig. 3 - Benzene Energy Levels: NN vs. NNN
 
 Comparison of the six π-electron energy levels of benzene using nearest-neighbour and next-nearest-neighbour tight-binding Hamiltonians.
 
@@ -109,7 +109,7 @@ Including NNN hopping shifts the eigenenergies and modifies the level spacings. 
 
 ![Benzene Energy Spectrum](figures/fig1_combined_spectrum.png)
 
-### Fig. 4 — Density of States: NN vs. NNN
+### Fig. 4 - Density of States: NN vs. NNN
 
 A comparison of the Gaussian-broadened density of states (DOS) obtained from the discrete energy eigenvalues of the six-site benzene Hamiltonian.
 
@@ -117,7 +117,7 @@ The figure illustrates changes in peak positions and spectral distributions when
 
 ![Benzene Density of States](figures/fig2_combined_dos.png)
 
-### Fig. 5 — Benzene π-Molecular Orbitals
+### Fig. 5 - Benzene π-Molecular Orbitals
 
 Visualization of benzene π-molecular orbital probability densities using the Linear Combination of Atomic Orbitals (LCAO) approximation.
 
@@ -127,7 +127,7 @@ The spatial orbital representations are constructed using localized Gaussian fun
 
 ![Benzene Molecular Orbitals](figures/fig3_benzene_orbitals.png)
 
-### Fig. 6 — Graphene Crystal Lattice
+### Fig. 6 - Graphene Crystal Lattice
 
 A computational visualization of graphene's two-dimensional honeycomb lattice, constructed from two interpenetrating triangular sublattices.
 
@@ -139,7 +139,7 @@ The figure illustrates the bipartite atomic arrangement and nearest-neighbour co
 
 ![Graphene Honeycomb Lattice](figures/fig4_graphene_lattice.png)
 
-### Fig. 7 — Edge Effects: Zigzag vs. Armchair
+### Fig. 7 - Edge Effects: Zigzag vs. Armchair
 
 A comparison of finite graphene flakes with zigzag and armchair edge geometries.
 
@@ -151,7 +151,7 @@ The comparison illustrates how finite-size confinement and edge geometry influen
 
 ![Zigzag vs Armchair Graphene Flakes](figures/zigzag_vs_armchair_comparison.png)
 
-### Fig. 8 — Size–Energy-Gap Relationship
+### Fig. 8 - Size–Energy-Gap Relationship
 
 A schematic representation of the relationship between graphene nanostructure width and electronic energy gap.
 
@@ -234,23 +234,23 @@ Clone or download the repository and navigate to the source-code directory:
 
 Execute the following scripts independently.
 
-**Fig. 1 — Graphene Dirac Cone**
+**Fig. 1 - Graphene Dirac Cone**
 
 `python fig5_dirac_cone.py`
 
-**Fig. 2 — Schematic Band Structures**
+**Fig. 2 - Schematic Band Structures**
 
 `python band_structures.py`
 
-**Figs. 3–6 — Benzene and Graphene Visualizations**
+**Figs. 3–6 - Benzene and Graphene Visualizations**
 
 `python benzene_tight_binding.py`
 
-**Fig. 7 — Zigzag vs. Armchair Flakes**
+**Fig. 7 - Zigzag vs. Armchair Flakes**
 
 `python zigzag_vs_armchair.py`
 
-**Fig. 8 — Size–Gap Relationship**
+**Fig. 8 - Size–Gap Relationship**
 
 `python size_gap_relationship.py`
 
@@ -333,9 +333,9 @@ See [LICENSE](LICENSE) for additional information.
 
 **Cevdet Zafer Osmanağaoğlu**
 
-Physics Undergraduate — Ege University, Türkiye
+Physics Undergraduate - Ege University, Türkiye
 
-Research Internship Project — İzmir Institute of Technology (IZTECH), September 2025
+Research Internship Project - İzmir Institute of Technology (IZTECH), September 2025
 
 **Research Interests:** Quantum Physics, Quantum Computing, Computational Physics, and Theoretical Modeling.
 
